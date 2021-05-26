@@ -2,6 +2,7 @@
   "expo": {
     "name": "finals",
     "slug": "finals",
+    "scheme": "finals",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,17 +14,22 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
+    "facebookScheme": "fb2640939432870728", 
+    "facebookAppId" : "2640939432870728",
+    "facebookDisplayName":"finals",
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "host.exp.Exponent"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "host.exp.Exponent"
     },
     "web": {
       "favicon": "./assets/favicon.png"
